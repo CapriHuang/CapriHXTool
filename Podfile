@@ -13,5 +13,6 @@ target :CapriHXTool do
     pod 'HXBusinessLogin'
     pod 'HXCommonComponents'
     pod 'HXLiveStream'
+    pod 'HXWebView',        '0.4.21'
 end
 

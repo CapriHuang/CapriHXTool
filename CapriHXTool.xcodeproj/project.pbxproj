@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1292D5F2211943840051B2E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1292D5F1211943840051B2E1 /* AppDelegate.m */; };
+		1292D5F4211943860051B2E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1292D5F3211943860051B2E1 /* Assets.xcassets */; };
+		1292D5F7211943860051B2E1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1292D5F5211943860051B2E1 /* MainMenu.xib */; };
+		1292D5FA211943860051B2E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1292D5F9211943860051B2E1 /* main.m */; };
+		1292D602211943FA0051B2E1 /* MainWindowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1292D601211943FA0051B2E1 /* MainWindowViewController.m */; };
 		12C67BDE20F7383B0058394A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C67BDD20F7383B0058394A /* AppDelegate.m */; };
 		12C67BE120F7383B0058394A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C67BE020F7383B0058394A /* ViewController.m */; };
 		12C67BE420F7383B0058394A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12C67BE220F7383B0058394A /* Main.storyboard */; };
@@ -17,6 +22,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1292D5EE211943840051B2E1 /* DSYMTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSYMTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1292D5F0211943840051B2E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1292D5F1211943840051B2E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1292D5F3211943860051B2E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1292D5F6211943860051B2E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1292D5F8211943860051B2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1292D5F9211943860051B2E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1292D5FB211943860051B2E1 /* DSYMTools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DSYMTools.entitlements; sourceTree = "<group>"; };
+		1292D600211943FA0051B2E1 /* MainWindowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainWindowViewController.h; sourceTree = "<group>"; };
+		1292D601211943FA0051B2E1 /* MainWindowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainWindowViewController.m; sourceTree = "<group>"; };
 		12C67BD920F7383B0058394A /* CapriHXTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapriHXTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12C67BDC20F7383B0058394A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		12C67BDD20F7383B0058394A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -33,6 +48,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1292D5EB211943840051B2E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		12C67BD620F7383B0058394A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -44,10 +66,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1292D5EF211943840051B2E1 /* DSYMTools */ = {
+			isa = PBXGroup;
+			children = (
+				1292D5FF211943E30051B2E1 /* Controller */,
+				1292D5F0211943840051B2E1 /* AppDelegate.h */,
+				1292D5F1211943840051B2E1 /* AppDelegate.m */,
+				1292D5F3211943860051B2E1 /* Assets.xcassets */,
+				1292D5F5211943860051B2E1 /* MainMenu.xib */,
+				1292D5F8211943860051B2E1 /* Info.plist */,
+				1292D5F9211943860051B2E1 /* main.m */,
+				1292D5FB211943860051B2E1 /* DSYMTools.entitlements */,
+			);
+			path = DSYMTools;
+			sourceTree = "<group>";
+		};
+		1292D5FF211943E30051B2E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1292D600211943FA0051B2E1 /* MainWindowViewController.h */,
+				1292D601211943FA0051B2E1 /* MainWindowViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		12C67BD020F7383B0058394A = {
 			isa = PBXGroup;
 			children = (
 				12C67BDB20F7383B0058394A /* CapriHXTool */,
+				1292D5EF211943840051B2E1 /* DSYMTools */,
 				12C67BDA20F7383B0058394A /* Products */,
 				DA98F9E8C0CFADBC673A2795 /* Pods */,
 				EAEFF781A8A79FC61E1B3FA8 /* Frameworks */,
@@ -58,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				12C67BD920F7383B0058394A /* CapriHXTool.app */,
+				1292D5EE211943840051B2E1 /* DSYMTools.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,6 +146,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1292D5ED211943840051B2E1 /* DSYMTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1292D5FE211943860051B2E1 /* Build configuration list for PBXNativeTarget "DSYMTools" */;
+			buildPhases = (
+				1292D5EA211943840051B2E1 /* Sources */,
+				1292D5EB211943840051B2E1 /* Frameworks */,
+				1292D5EC211943840051B2E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSYMTools;
+			productName = DSYMTools;
+			productReference = 1292D5EE211943840051B2E1 /* DSYMTools.app */;
+			productType = "com.apple.product-type.application";
+		};
 		12C67BD820F7383B0058394A /* CapriHXTool */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12C67BEF20F7383E0058394A /* Build configuration list for PBXNativeTarget "CapriHXTool" */;
@@ -127,6 +192,9 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Capris;
 				TargetAttributes = {
+					1292D5ED211943840051B2E1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
 					12C67BD820F7383B0058394A = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
@@ -146,11 +214,21 @@
 			projectRoot = "";
 			targets = (
 				12C67BD820F7383B0058394A /* CapriHXTool */,
+				1292D5ED211943840051B2E1 /* DSYMTools */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1292D5EC211943840051B2E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1292D5F4211943860051B2E1 /* Assets.xcassets in Resources */,
+				1292D5F7211943860051B2E1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		12C67BD720F7383B0058394A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -171,12 +249,23 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CapriHXTool/Pods-CapriHXTool-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
 				"${PODS_ROOT}/HXBusinessLogin/HXBusinessLogin/Assets/bg_dl@2x.png",
 				"${PODS_ROOT}/HXBusinessLogin/HXBusinessLogin/Assets/bg_dl@3x.png",
 				"${PODS_ROOT}/HXBusinessLogin/HXBusinessLogin/Assets/haarcascade_eye_tree_eyeglasses.xml",
 				"${PODS_ROOT}/HXBusinessLogin/HXBusinessLogin/Assets/haarcascade_frontalface_alt2.xml",
+				"${PODS_ROOT}/HXBusinessLogin/HXBusinessLogin/Assets/login_bg@2x.png",
+				"${PODS_ROOT}/HXBusinessLogin/HXBusinessLogin/Assets/login_bg@3x.png",
 				"${PODS_ROOT}/HXBusinessLogin/HXBusinessLogin/Assets/login_bianma@2x.png",
 				"${PODS_ROOT}/HXBusinessLogin/HXBusinessLogin/Assets/login_bianma@3x.png",
+				"${PODS_ROOT}/HXBusinessLogin/HXBusinessLogin/Assets/login_hxqcicon@2x.png",
+				"${PODS_ROOT}/HXBusinessLogin/HXBusinessLogin/Assets/login_hxqcicon@3x.png",
+				"${PODS_ROOT}/HXBusinessLogin/HXBusinessLogin/Assets/login_input-box@2x.png",
+				"${PODS_ROOT}/HXBusinessLogin/HXBusinessLogin/Assets/login_input-box@3x.png",
+				"${PODS_ROOT}/HXBusinessLogin/HXBusinessLogin/Assets/login_login-box@2x.png",
+				"${PODS_ROOT}/HXBusinessLogin/HXBusinessLogin/Assets/login_login-box@3x.png",
+				"${PODS_ROOT}/HXBusinessLogin/HXBusinessLogin/Assets/login_logo@2x.png",
+				"${PODS_ROOT}/HXBusinessLogin/HXBusinessLogin/Assets/login_logo@3x.png",
 				"${PODS_ROOT}/HXBusinessLogin/HXBusinessLogin/Assets/password@2x.png",
 				"${PODS_ROOT}/HXBusinessLogin/HXBusinessLogin/Assets/password@3x.png",
 				"${PODS_ROOT}/HXBusinessLogin/HXBusinessLogin/Assets/rn_close_eye@2x.png",
@@ -195,16 +284,29 @@
 				"${PODS_CONFIGURATION_BUILD_DIR}/HXLiveStream/HXLiveStream.bundle",
 				"${PODS_ROOT}/HXRequest/HXRequest/Classes/HXQC.xcdatamodel",
 				"${PODS_CONFIGURATION_BUILD_DIR}/HXSocialShare/HXSocialShare.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/HXWebView/HXBusinessWebSource.bundle",
+				"${PODS_ROOT}/JSPatch/JSPatch/JSPatch.js",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bg_dl@2x.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/bg_dl@3x.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/haarcascade_eye_tree_eyeglasses.xml",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/haarcascade_frontalface_alt2.xml",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/login_bg@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/login_bg@3x.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/login_bianma@2x.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/login_bianma@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/login_hxqcicon@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/login_hxqcicon@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/login_input-box@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/login_input-box@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/login_login-box@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/login_login-box@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/login_logo@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/login_logo@3x.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/password@2x.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/password@3x.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/rn_close_eye@2x.png",
@@ -223,6 +325,8 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HXLiveStream.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HXQC.mom",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HXSocialShare.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HXBusinessWebSource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/JSPatch.js",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +379,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1292D5EA211943840051B2E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1292D602211943FA0051B2E1 /* MainWindowViewController.m in Sources */,
+				1292D5FA211943860051B2E1 /* main.m in Sources */,
+				1292D5F2211943840051B2E1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		12C67BD520F7383B0058394A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -288,6 +402,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		1292D5F5211943860051B2E1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1292D5F6211943860051B2E1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
 		12C67BE220F7383B0058394A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -307,6 +429,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1292D5FC211943860051B2E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DSYMTools/DSYMTools.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VDYKR66KN4;
+				INFOPLIST_FILE = DSYMTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = Capris.DSYMTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1292D5FD211943860051B2E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DSYMTools/DSYMTools.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = VDYKR66KN4;
+				INFOPLIST_FILE = DSYMTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_BUNDLE_IDENTIFIER = Capris.DSYMTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		12C67BED20F7383E0058394A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -425,6 +589,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VDYKR66KN4;
 				INFOPLIST_FILE = CapriHXTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -443,6 +608,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VDYKR66KN4;
 				INFOPLIST_FILE = CapriHXTool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,6 +622,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1292D5FE211943860051B2E1 /* Build configuration list for PBXNativeTarget "DSYMTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1292D5FC211943860051B2E1 /* Debug */,
+				1292D5FD211943860051B2E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		12C67BD420F7383B0058394A /* Build configuration list for PBXProject "CapriHXTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
